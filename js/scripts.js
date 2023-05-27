@@ -117,6 +117,7 @@ if(!postId) {
 
         postComment(comment)
 
-        comment = ""
+        emailInput.value = ""
+        bodyInput.value = ""
     })
 }
