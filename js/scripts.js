@@ -116,5 +116,7 @@ if(!postId) {
         comment = JSON.stringify(comment)
 
         postComment(comment)
+
+        comment = ""
     })
 }
